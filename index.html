@@ -288,6 +288,36 @@
       </div>
 
       <div class="item">
+        <p>What is your marketing budget?<span class="required">*</span></p>
+        <input type="number" step="0.5" name="budget" required/>
+      </div>
+
+      <div class="item">
+        <p>How much does each of your marketing campaign cost?<span class="required">*</span></p>
+        <input type="number" step="0.5" name="campaign" required/>
+      </div>
+
+      <div class="question">
+        <p>Do you have a product website?<span class="required">*</span></p>
+        <div class="question-answer">
+          <input type="radio" value="Yes" id="yes" name="website" required/>
+          <label for="yes" class="radio"><span>Yes</span></label>
+          <input type="radio" value="No" id="no" name="website" required/>
+          <label for="no" class="radio"><span>No</span></label>
+        </div>
+      </div>
+
+      <div class="question">
+        <p>Do you have an offline store for your product?<span class="required">*</span></p>
+        <div class="question-answer">
+          <input type="radio" value="Yes" id="yes" name="store" required/>
+          <label for="yes" class="radio"><span>Yes</span></label>
+          <input type="radio" value="No" id="no" name="store" required/>
+          <label for="no" class="radio"><span>No</span></label>
+        </div>
+      </div>
+
+      <div class="item">
         <p>Date</p>
         <input type="date" name="bdate" required/>
         <i class="fas fa-calendar-alt"></i>
